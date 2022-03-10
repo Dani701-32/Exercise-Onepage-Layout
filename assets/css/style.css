@@ -1,0 +1,30 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.bg-navbar{
+    background-color: #383E4C;
+    height: 78px;
+}
+.navbar{
+    padding: 0px;
+}
+.nav-item{
+    padding: 10px;
+}
+.nav-link{
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: 1px solid #646d7c;
+    text-decoration: none;
+}
+.nav-link.active{
+    background-color: #49505F;
+}
+.nav-link:hover{
+    color: #FFF;
+    background-color: #49505F;
+}
