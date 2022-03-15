@@ -1,15 +1,14 @@
 *{
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif!important;
     box-sizing: border-box;
     overflow-x: hidden;
 }
-
+body{
+    height: 150vh;
+}
 .navbar{
     padding-top: 0px;
     padding-bottom: 0px;
-}
-.navbar-toggler{
-    background-color: #383E4C;
 }
 .bg-darkgray{
     background-color: #383E4C;
@@ -22,11 +21,11 @@
     height: 2px;
     border-radius: 1px;
 }
-.navbar-inverse .navbar-nav li a {
+.navbar-inverse .navbar-nav li a.nav-link{
     border: 1px solid #646d7c;
     color: #fff;
     font-size: 20px;
-    padding: 15px 30px;
+    padding: 15px 25px;
     text-decoration: none;
     text-transform: capitalize;
     -webkit-transition: all 0.3s ease;
@@ -53,6 +52,9 @@
 }
 
 @media only screen and (max-width: 767px){
+    .navbar-toggler{
+        background-color: #383E4C;
+    }
     .navbar-nav li {
         width: 100%;
         border-bottom: 1px solid #999;
